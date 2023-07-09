@@ -1,7 +1,135 @@
-body{
-    font-family: open sans-serif;
+/* General Style */
+
+* {
+    margin: 0px;
 }
 
-/* navigation style  */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    max-width: 1150px;
+    margin: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    padding: 10px 25px;
+}
+
+.btn-primary {
+    background-color: #FD6E0A;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 14px 27px;
+    margin: 2px;
+}
+
+.btn-border {
+    background-color: transparent;
+    color: #FD6E0A;
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 14px 27px;
+    border: 2px solid #FD6E0A;
+    margin: 2px;
+}
+
+.color-primary {
+    color: #FD6E0A
+}
+
+.title {
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    margin: 25px 0px;
+}
+
+.pera {
+    font-size: 18px;
+    line-height: 35px;
+}
+
+/* General Style End  */
+
+
+/* header area  */
+.header-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+}
+
+.logo {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+    text-align: left;
+}
+
+header {
+    background: #FFF8F3;
+    background-image: url('/images/header_bg.png'), url('/images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, center left;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.banner h2 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.banner h1 {
+    font-size: 65px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.banner p {
+    width: 500px;
+    margin: 20px 0px;
+}
+
+
+/* About Section  */
+
+.about-content {
+    max-width: 1140px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 90px 50px;
+    margin: 5%;
+    box-shadow: 0px 0px 40px #d2cccc;
+}
+
+.about-content .self-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 30px;
+}
+
 
 
