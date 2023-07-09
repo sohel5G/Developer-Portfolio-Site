@@ -238,3 +238,16 @@ footer {
     border: none;
     margin-bottom: 20px;
 }
+
+footer nav ul li a {
+    padding: 14px;
+}
+
+footer nav ul li a:first-child {
+    padding-left: 0px;
+}
+
+footer nav ul {
+    flex-direction: start;
+    padding: 0px;
+}
