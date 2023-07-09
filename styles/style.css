@@ -120,8 +120,8 @@ header {
     border-radius: 10px;
     background: #FFF8F3;
     padding: 90px 50px;
-    margin: 5%;
-    box-shadow: 0px 0px 40px #d2cccc;
+    margin:150px 50px;
+    box-shadow: 0px 0px 40px #e1dddd;
 }
 
 .about-content .self-info{
@@ -130,6 +130,39 @@ header {
     justify-content: space-evenly;
     padding: 50px 30px;
 }
+
+
+/* What I do section  */
+
+
+.skill-intro{
+    max-width: 768px;
+    margin: auto;
+    text-align: center;
+}
+
+.skill-lang{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;  
+    margin: 50px 0px;  
+}
+
+.skill-lang .column{
+    padding: 40px 20px;
+    box-shadow: 0px 0px 10px #e1dddd;
+    margin: 10px;
+    text-align: center;
+}
+.skill-lang .column h3{
+    margin: 20px 0px;
+}
+.skill-lang .column p{
+    font-size: 17px;
+    line-height: 28px;
+}
+
+
 
 
 
