@@ -214,9 +214,6 @@ footer {
     margin: 20px 0px;
 }
 
-.footer-info .right {}
-
-.footer-info .right form {}
 
 .footer-info .right form input[type="text"],
 .footer-info .right form input[type="email"] {
@@ -252,5 +249,3 @@ footer nav ul {
     flex-direction: start;
     padding: 0px;
 }
-
-
