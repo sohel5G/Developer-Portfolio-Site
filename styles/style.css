@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    max-width: 1150px;
+    max-width: 1140px;
     margin: auto;
 }
 
@@ -67,10 +67,19 @@ nav ul li a {
 
 
 /* header area  */
+header {
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, center left;
+    position: relative;
+    height: 750px;
+}
+
 .header-main {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 100px;
 }
 
@@ -81,17 +90,11 @@ nav ul li a {
     text-align: left;
 }
 
-header {
-    background: #FFF8F3;
-    background-image: url('../images/header_bg.png'), url('../images/developer.png');
-    background-repeat: no-repeat;
-    background-position: bottom right, center left;
-}
-
 .banner {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    height: 550px;
 }
 
 .banner h2 {
@@ -108,6 +111,11 @@ header {
 .banner p {
     width: 500px;
     margin: 20px 0px;
+}
+.banner-image img{
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
 }
 
 
